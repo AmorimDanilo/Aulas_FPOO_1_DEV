@@ -3,7 +3,7 @@ package atividade01;
 import com.sun.tools.javac.Main;
 import java.util.Scanner;
 
-public class calculoTotal {
+public class CalculoTotal {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);

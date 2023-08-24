@@ -5,7 +5,7 @@ package atividade01;
 import java.util.Scanner;
 
 
-public class emprestimoBancario {
+public class EmprestimoBancario {
  public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

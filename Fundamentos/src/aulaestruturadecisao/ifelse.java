@@ -3,7 +3,7 @@
 package aulaestruturadecisao;
 
 
-public class ifelse {
+public class IfElse {
     public static void main(String[] args) {
         int idade = 17;
         

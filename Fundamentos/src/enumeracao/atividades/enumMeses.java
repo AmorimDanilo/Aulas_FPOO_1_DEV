@@ -8,7 +8,7 @@ package enumeracao.atividades;
  *
  * @author Aluno
  */
-public enum enumMeses {
+public enum EnumMeses {
     JANEIRO, 
     FEVEREIRO,
     MARCO, ABRIL,

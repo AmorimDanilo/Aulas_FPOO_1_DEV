@@ -2,7 +2,7 @@ package atividade01;
 
 import java.util.Scanner;
 
-public class velocidadeCarro {
+public class VelocidadeCarro {
 
     public static void main(String[] args) {
 

@@ -8,7 +8,7 @@ package enumeracao.atividades;
  *
  * @author Aluno
  */
-public enum enumRedesSociais {
+public enum EnumRedesSociais {
     
     VIDEOS,
     FOTOS,

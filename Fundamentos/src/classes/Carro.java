@@ -14,7 +14,7 @@ public class Carro {
     private CorEnum cor;
     private int anoFabricacao;
     private int qtdeRodas;
-    private marchaEnum marcha;
+    private MarchaEnum marcha;
     private int velocidade;
     private int velocidadeFreio;
     private int situacao;
@@ -39,12 +39,12 @@ public void  freiar() {
 
 }
 
-public void trocarDeMarcha(marchaEnum marcha) {
-    this.marcha = marcha.getNumeroMarcha();
+public void trocarDeMarcha(MarchaEnum marcha) {
+    
             }
 
 public void engatarRe(boolean re) {
-    this.estaEmRe = re;
+  
 }
 
 

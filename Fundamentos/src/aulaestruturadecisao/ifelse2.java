@@ -1,6 +1,6 @@
 package aulaestruturadecisao;
 
-public class ifelse2 {
+public class IfElse2 {
 
     public static void main(String[] args) {
         int temperatura = 15;

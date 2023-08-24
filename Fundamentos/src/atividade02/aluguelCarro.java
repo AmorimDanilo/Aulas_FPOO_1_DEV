@@ -2,7 +2,7 @@ package atividade02;
 
 import java.util.Scanner;
 
-public class aluguelCarro {
+public class AluguelCarro {
 
     public static void main(String[] args) {
 

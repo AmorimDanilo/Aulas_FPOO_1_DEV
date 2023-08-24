@@ -3,6 +3,6 @@
 package atividade01;
 
 
-public class mediaAritmetica {
+public class MediaAritmetica {
 
 }

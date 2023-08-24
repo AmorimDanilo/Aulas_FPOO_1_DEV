@@ -2,7 +2,7 @@ package atividade01;
 
 import java.util.Scanner;
 
-public class areaCirculo {
+public class AreaCirculo {
 
     public static void main(String[] args) {
 

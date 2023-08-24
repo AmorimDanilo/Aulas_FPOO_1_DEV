@@ -8,7 +8,7 @@ package classes;
  *
  * @author Aluno
  */
-public enum marchaEnum {
+public enum MarchaEnum {
     PRIMEIRA_MARCHA("Primeira marcha", 1),
     SEGUNDA_MARCHA("Segunda marcha", 2),
     TERCEIRA_MARCHA("Terceira marcha", 3),
@@ -20,7 +20,7 @@ public enum marchaEnum {
     private String marcha;
     private int numeroMarcha;
 
-    private marchaEnum(String marcha, int numeroMarcha) {
+    private MarchaEnum(String marcha, int numeroMarcha) {
         this.marcha = marcha;
         this.numeroMarcha = numeroMarcha;
     }

@@ -8,7 +8,7 @@ package enumeracao.atividades;
  *
  * @author Aluno
  */
-public enum enumCantina {
+public enum EnumCantina {
     BEBIDAS,
     SALGADOS,
     DOCES,

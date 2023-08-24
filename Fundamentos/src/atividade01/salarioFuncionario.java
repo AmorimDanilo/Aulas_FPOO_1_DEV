@@ -5,7 +5,7 @@ package atividade01;
 import java.util.Scanner;
 
 
-public class salarioFuncionario {
+public class SalarioFuncionario {
 
     public static void main(String[] args) {
         

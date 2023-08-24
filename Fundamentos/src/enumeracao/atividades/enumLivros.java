@@ -8,7 +8,7 @@ package enumeracao.atividades;
  *
  * @author Aluno
  */
-    public enum enumLivros {
+    public enum EnumLivros {
     ROMANCE,
     FICCAO,
     DRAMA,
