@@ -11,14 +11,15 @@ package classes;
 public class Carro {
     private String modelo;
     private String marca;
-    private String cor;
+    private CorEnum cor;
     private int anoFabricacao;
     private int qtdeRodas;
+    private marchaEnum marcha;
     private int velocidade;
     private int velocidadeFreio;
     private int situacao;
 
-    public Carro(String modelo, String marca, String cor, int anoFabricacao, int qtdeRodas) {
+    public Carro(String modelo, String marca, CorEnum cor, int anoFabricacao, int qtdeRodas) {
         this.modelo = modelo;
         this.marca = marca;
         this.cor = cor;
@@ -26,6 +27,7 @@ public class Carro {
         this.qtdeRodas = qtdeRodas;
         this.velocidade = 0;
         this.velocidadeFreio = 0;
+        this.marcha = marcha;
     }
     
     public void andar(int velocidade) {
@@ -37,7 +39,17 @@ public void  freiar() {
 
 }
 
+public void trocarDeMarcha(marchaEnum marcha) {
+    this.marcha = marcha.getNumeroMarcha();
+            }
+
+public void engatarRe(boolean re) {
+    this.estaEmRe = re;
+}
+
+
     @Override
+    
     public String toString() {
         return "Carro{" + "modelo=" + modelo + ", marca=" + marca + ", cor=" + cor + ", anoFabricacao=" + anoFabricacao + ", qtdeRodas=" + qtdeRodas + ", velocidade=" + velocidade + ", velocidadeFreio=" + velocidadeFreio + '}';
     }
