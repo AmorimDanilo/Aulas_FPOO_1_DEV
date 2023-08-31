@@ -71,7 +71,16 @@ return "Cliente{" + "nome= " +nome + '}';
     
     @Override
     public boolean verificarEmailDominioGoogle(String email) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        if (email == null){
+            return false;
+        }
+        if (email.contains("@gmail.com")) {
+            System.out.println("O seu e-mail " +email + " é do Google");
+            return true;
+        } else {
+            System.out.println("O seu e-mail " +email + " não é do Google");
+            return false;
+        }
     }
     
 }
