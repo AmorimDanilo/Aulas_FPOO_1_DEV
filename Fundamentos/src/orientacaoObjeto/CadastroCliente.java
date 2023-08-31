@@ -4,12 +4,7 @@
  */
 package orientacaoObjeto;
 
-/**
- *
- * @author Aluno
- */
-public interface AluguelFilme {
-    
-    double VALOR_FILME_SIMPLES = 3.99;
-    double VALOR_FILME_LANCAMENTO = 6.99;
+public interface CadastroCliente {
+    public boolean validarNome(String nome);
+    public boolean verificarEmailDominioGoogle(String email);
 }
